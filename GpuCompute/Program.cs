@@ -4,7 +4,8 @@ using ComputeSharp;
 using GpuCompute.ComputeShader;
 using GpuCompute.Model;
 
-const int MaxmaCount = 1000000;
+// ThreadGroupX批次執行最高上限
+const int MaxmaCount = 4194240;
 
 const float PI = 3.14159265358979323846F;
 
